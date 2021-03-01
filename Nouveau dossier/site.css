@@ -1,0 +1,235 @@
+*{
+
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: Time New Roma;
+}
+.navbar{
+	width: 100%;
+	background-color: yellow;
+	position: fixed;
+	padding: 15px;
+}
+.navbar .max-width{
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+
+}
+.logo a {
+  	color: #fff;
+  	font-size: 40px;
+  	font-weight: 500;
+}
+.logo a span{
+	color: #000;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+
+}
+.menu li a:hover{
+	color: black;
+}
+.home{
+	height: 800px;
+	background:url('sonia.jpeg'); 
+	display: flex;
+    width: 1000%;
+    max-width: 100%;
+    height: 1000px;
+
+}
+.home .max-width{
+	color: black;
+	margin: auto 120px;
+}
+
+.home .max-width .text-1{
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.home .max-width .text-2{
+	font-size: 30px;
+	font-weight: 100;
+	color: blue;
+	}
+.home .max-width .text-3{
+	font-size: 20px;
+	font-weight: 200;
+
+}
+.home .max-width .text-3 span{
+	color: crimson;
+}
+.home .max-width .button-one{
+	display: inline-block;
+	color: white;
+	font-size: 40px;
+	font-weight: 400;
+	background-color: blue;
+	border:2px solid crimson;
+	border-radius: 20px;
+	padding: 10px 40px;
+	margin-top: 20px;
+
+
+}
+.home .max-width .button-one:hover{
+	background:none;
+}
+.about .title1{
+	margin-top: 50px;
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline blue; 
+	margin-bottom: 100px;
+}
+.about .about-content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0px 100px ;
+}
+.about .div-left{
+	width: 45%;
+}
+.about .div-right{
+	width: 55%;
+}
+.about .div-left img{
+
+	height: 400px;
+	width: 400px;
+	border-radius: 20px;
+
+}
+.about .div-right .text{
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.about .div-right .text span{
+	color: blue;
+}
+.about .div-right  p{
+	text-align: justify;
+	font-size: 20px;
+
+}
+.about .div-right a{
+	display: inline-block;
+	color: white;
+	font-size: 40px;
+	font-weight: 400;
+	background-color: blue;
+	border:2px solid crimson;
+	border-radius: 20px;
+	padding: 10px 40px;
+	margin-top: 20px;
+}
+.about .div-right a:hover{
+	background:none;
+	color: blue;
+}
+
+.papa{
+	text-align: center;
+}
+.godd{
+	background: blue;
+	display: inline;
+	text-align: right;
+	height: 400px;
+	width: 400px;
+}
+.godd2{
+	width: 50%;
+	height: 300px;
+}
+.papa1 {
+	text-align: left;
+	background: black;
+
+}
+img{
+	 overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:100px;
+    height:100px;
+    vertical-align: center;	
+    display: block;
+    margin: auto;
+    border-image: crimson;
+    border:2px solid crimson;
+}
+table{
+  border: 0;
+  border-collapse : collapse;
+  width: 600px;
+  height: 	500px;
+  text-align: 	center;
+  margin-left: auto;	
+  margin-right: auto;		
+}
+.h{
+	text-align: center;	
+}
+.tutu{
+	text-align: center;	
+}
+.mama{
+	font-family: italic;
+}
+.papa2{
+	background:black;
+}
+.papa3{
+	background: black;
+}
+.maj{
+	text-align: left;	
+}
+ .div-right{
+	float: right;
+  width: 200px;
+  margin: 0;	
+}
+.div-left{
+	float: left;
+  width: 50%;
+  margin: 0;
+}
+.button{
+	background-color: blue;
+	border:2px solid crimson;
+	border-radius: 20px;
+	height: 300px;
+	width: 	300px;
+}
+.im{
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.popo{
+	width: 30px;
+	height: 30px;
+}
